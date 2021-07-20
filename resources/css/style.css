@@ -1,0 +1,16 @@
+html{
+    font-family: 'Verdana', sans-serif;
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    background-color: black;
+    color: white;
+}
+
+a{
+    color: aquamarine;
+    text-decoration: aquamarine;
+}
+
