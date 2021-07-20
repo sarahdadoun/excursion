@@ -1,10 +1,10 @@
 html{
     font-family: 'Verdana', sans-serif;
     display: flex;
-    /* flex-direction: row; */
-    /* justify-content: center;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    text-align: center; */
+    text-align: center;
     background-color: black;
     color: white;
 }
@@ -12,5 +12,35 @@ html{
 a{
     color: aquamarine;
     text-decoration: aquamarine;
+    margin: 20px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    margin: 30px;
+    font-size: 42px;
+    font-weight: 300;
+}
+
+p{
+    color: gray;
+    font-size: 21px;
+}
+
+section div:first-child{
+    display: flex;
+    flex-direction: column;
+}
+
+section div:nth-child(3) img{
+    margin: 40px 0px 0px 0px;
+}
+
+footer p{
+    color: gray;
+    text-align: right;
 }
 
